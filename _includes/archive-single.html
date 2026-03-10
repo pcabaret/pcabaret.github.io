@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope
     itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    {% if (include.type == "grid" or include.type == "withTeaser") and teaser %}
     <div class="archive__item-teaser">
       <img src={% if teaser contains "://" %}
         "{{ teaser }}"
@@ -57,21 +57,28 @@
         }}</time></p>
     {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt |
-      markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt |
-        markdownify | remove: '<p>' | remove: '</p>' }}<strong><a
-            href="{{ base_path }}{{ post.url }}" rel="permalink"> Read
-            more</a></strong></p></p>
-    {% endif %}
-
-    {% if post.authors and post/category != "thesis"
+    {% if post.authors and post.category != "thesis"
     %}
     <p>Authors: {{ post.authors }}</p>
     {% endif %}
 
+    {% if post.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt |
+      markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">
+      <p><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read
+          more</a> |
+        {% if post.paperurl and post.category == "thesis" %}
+        <a href="{{ post.paperurl }}">Download Thesis</a>
+        {% elsif post.paperurl %}
+        <a href="{{ post.paperurl }}">Download Paper on HAL</a>
+        {% endif %}
+      </p>
+    </p>
+    {% endif %}
+
+    <!--     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl
     %}
     <p>Recommended citation: {{ post.citation }}<br /><a
@@ -115,7 +122,7 @@
     <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
     <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% endif %}
+    {% endif %} -->
 
   </article>
 </div>

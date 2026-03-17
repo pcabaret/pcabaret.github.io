@@ -1,5 +1,5 @@
 ---
-permalink: /teaching2/
+permalink: /teaching/
 title: "Teaching"
 author_profile: true
 
@@ -9,8 +9,6 @@ author_profile: true
 
 | **Year**  | **Institution**    | **Academic level**   | **Name**  | **Hours** | **Nature**    | **Duties**    |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-
-
 | 2026      | 1ère année ingénieur spécialité informatique   | L3         | Base de données                                                      | 7.5h eqTD    | CM/TD 72~étudiants          | Responsable             |
 | 2026      | 1ère année cycle préparatoire ingénieur        | L1         | Initiation à l’algorithmique et à la programmation                   | 30\.5h eqTD  | TD/TP 22~étudiants          | Encadrement                         |
 | 2026      | 2ème année cycle préparatoire ingénieur        | L2         | Algorithmique et Programmation Orientée Objet                        | 62h eqTD     | TD/TP 2*22~étudiants        | Encadrement                         |

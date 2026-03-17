@@ -159,7 +159,7 @@ function init(){
 ;
   var objloader = new THREE.GLTFLoader();
   objloader.load(
-    './tardis2.glb',
+    '/assets/experiments/who/tardis2.glb',
     function(object) {
       object.scene.castShadow = true;
       object.scene.receiveShadow = true;
@@ -188,7 +188,7 @@ function init(){
 
   // load a sound and set it as the Audio object's buffer
   var audioLoader = new THREE.AudioLoader();
-  audioLoader.load( 'sound.mp3', function( buffer ) {
+  audioLoader.load( '/assets/experiments/who/sound.mp3', function( buffer ) {
     sound.setBuffer( buffer );
     sound.setLoop( true );
     sound.setVolume( 0.2 );

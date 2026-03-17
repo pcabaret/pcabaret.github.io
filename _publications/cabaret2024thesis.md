@@ -17,6 +17,8 @@ header:
 
 ### Defended on december 13th 2024 as part of the RAINBOW team @ Irisa
 
+**Winner of the IFRATH Thesis Prize 2024**
+
 ### Jury members: 
 - Jan van Erp, Full Professor, University of Twente, Pays-Bas (Reviewer)
 - Thomas Pietrzak, Professeur des Universités, Université de Lille, France (Reviewer)

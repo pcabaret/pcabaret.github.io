@@ -67,14 +67,18 @@
       markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">
-      <p><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read
-          more</a> |
-        {% if post.paperurl and post.category == "thesis" %}
-        <a href="{{ post.paperurl }}">Download Thesis</a>
-        {% elsif post.paperurl %}
-        <a href="{{ post.paperurl }}">Download Paper on HAL</a>
-        {% endif %}
-      </p>
+
+      {% if post.paperurl and post.category == "thesis" %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read
+        more</a> | <a href="{{ post.paperurl }}">Download Thesis</a>
+      {% elsif post.paperurl %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read
+        more</a> | <a href="{{ post.paperurl }}">Download Paper on HAL</a>
+      {% elsif post.collection == "misc" %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt
+        | markdownify }}</p>
+      {% endif %}
+
     </p>
     {% endif %}
 

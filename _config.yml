@@ -229,7 +229,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  misc:
     output: true
     permalink: /:collection/:path/
   # talks:
@@ -279,6 +279,14 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comment: false
+  - scope:
+      path: ""
+      type: misc
     values:
       layout: single
       author_profile: true
@@ -361,3 +369,120 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+
+# list of files for gallery in portfolio
+gallery:
+  rainbow1:
+    file: "V1-icon.svg"
+    title: "RAINBOW team logo"
+    date: March 2024
+  rainbow2:
+    file: "V2.svg"
+    title: "RAINBOW team logo proposition"
+    date: March 2024
+  aggretsuko:
+    file: "aggretsuko.png"
+    title: "Shirt logo - Aggretsuko"
+    date: September 2019
+  alhya:
+    file: "alhya.jpg"
+    title: "Alhya - Role playing character"
+    date: November 2018
+  baston:
+    file: "baston.jpg"
+    title: "InsaLan tournament art"
+    date: January 2019
+  biipaccueil1:
+    file: "biipaccueil1.jpg"
+    title: "B.I.I.P. Accueil"
+    date: September 2018
+  biipgala1:
+    file: "biipgala1.jpg"
+    title: "B.I.I.P. 179"
+    date: November 2018
+  biipgala2:
+    file: "biipgala2.jpg"
+    title: "B.I.I.P. 183"
+    date: November 2019
+  biipzelda:
+    file: "biipzelda.jpg"
+    title: "B.I.I.P. 182"
+    date: May 2019
+  cosplay:
+    file: "cosplay.jpg"
+    title: "Cosplay contest poster"
+    date: Octobre 2018
+  insalan-logo:
+    file: "insalan-logo.jpg"
+    title: "InsaLan XIV logo"
+    date: Octobre 2018
+  jack:
+    file: "jack.jpg"
+    title: "Theater Poster - Nouvoitou"
+    date: April 2018
+  biipUDS:
+    file: "biipUDS.jpg"
+    title: "B.I.I.P. 181"
+    date: March 2018
+  mabel:
+    file: "mabel.png"
+    title: "Shirt logo InsaLan"
+    date: August 2018
+  biip68:
+    file: "biip68.jpg"
+    title: "B.I.I.P. 178"
+    date: May 2018
+  insalan:
+    file: "insalan.jpg"
+    title: "InsaLan XIV main poster"
+    date: October 2018
+  mimic:
+    file: "mimic.png"
+    title: "Shirt logo InsaLan"
+    date: November 2018
+  zelda-wallpaper:
+    file: "zelda-wallpaper.jpg"
+    title: "Zelda Illustration"
+    date: 2015
+  biipinsalan:
+    file: "biipinsalan.jpg"
+    title: "B.I.I.P. 180"
+    date: February 2019
+  splatoon-wallpaper:
+    file: "splatoon-wallpaper.jpg"
+    title: "Splatoon Illustration"
+    date: August 2015
+  mini_neon:
+    file: "mini_neon.jpg"
+    title: "Min'Insalan Poster"
+    date: September 2018
+  mini-noel-affiche:
+    file: "mini noël affiche.jpg"
+    title: "Min'Insalan Poster"
+    date: November 2018
+  biiinsalan2:
+    file: "biiinsalan2.jpg"
+    title: "B.I.I.P. 184"
+    date: February 2020
+  rsc:
+    file: "rsc.jpg"
+    title: "RSC poster"
+    date: September 2018
+  saltimbanques:
+    file: "saltimbanques.jpg"
+    title: "Theater poster - Nouvoitou"
+    date: May 2019
+  sorciere:
+    file: "sorciere.jpg"
+    title: "Theater poster - Nouvoitou"
+    date: May 2019
+  mini_paques:
+    file: "mini_paques.jpg"
+    title: "Min'Insalan poster"
+    date: April 2018
+  vdf:
+    file: "vdf.jpg"
+    title: "Visiteur du futur illustration"
+    date: August 2014

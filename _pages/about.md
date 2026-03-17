@@ -1,16 +1,22 @@
 ---
 permalink: /
-title: "A propos"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Bonjour ! Je suis actuellement ATER (assistant temporaire de recherche et d'enseignement) en informatique à l'INSA Rennes et je fais partie de l'équipe [« Sensor-based Robotics and Human Interaction » (Rainbow)](https://team.inria.fr/rainbow/fr/) de l'IRISA à Rennes.
+Hello! I am currently a temporary research and teaching assistant (ATER) in computer science at [INSA Rennes](https://www.insa-rennes.fr) and a member of the [“Sensor-based Robotics and Human Interaction” (Rainbow)](https://team.inria.fr/rainbow/fr/) team at [IRISA](https://www.irisa.fr) in Rennes.
 
-J'ai soutenu ma thèse intitulée « Design of multi-actuator haptic devices and rendering methods for navigation and virtual interactions » le 13 décembre 2024, sous la direction de Marie Babel, Maud Marchal et Claudio Pacchierotti [(en savoir plus)](/publication/cabaret2024thesis).
+I defended my [thesis](/publication/cabaret2024thesis) entitled “Design of multi-actuator haptic devices and rendering methods for navigation and virtual interactions” on 13 December 2024, supervised by Marie Babel, Maud Marchal and Claudio Pacchierotti .
 
-Mes thématiques de recherche s’articulent autour de l’haptique et de l'utilisation de ces technologies pour les interactions en réalité virtuelle et pour l’assistance à la navigation. 
-Dans le cadre de ma thèse, je me suis principalement intéressé à la conception d’interfaces vibrotactiles multi-actionneurs conçues pour fournir des sensations localisées dans la main, et à leur utilisation dans ces deux domaines. 
-En effet, les dispositifs existants proposent pour l’instant des sensations se limitant à une seule source de vibration, ou bien à des sensations difficiles à percevoir. 
+My research interests are :
+- **Haptics** 👋
+- **VR**
+- **Human–computer interaction**
+- **Navigation assistance**
+- **3D printing**
+
+During my PhD, I have focused primarily on the design of **multi-actuator vibrotactile** interfaces designed to provide localized sensations in the hand, and on their application in **VR interactions** and **mobility assistance**. 
+

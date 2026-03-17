@@ -202,6 +202,7 @@ author_profile: true
 </tbody>
 </table>
 
+<br>
 
 # Détail des enseignements
 

@@ -9,7 +9,8 @@ redirect_from:
 
 Hello! I am currently a temporary research and teaching assistant (ATER) in computer science at [INSA Rennes](https://www.insa-rennes.fr) and a member of the [“Sensor-based Robotics and Human Interaction” (Rainbow)](https://team.inria.fr/rainbow/fr/) team at [IRISA](https://www.irisa.fr) in Rennes.
 
-I defended my [thesis](/publication/cabaret2024thesis) entitled “Design of multi-actuator haptic devices and rendering methods for navigation and virtual interactions” on 13 December 2024, supervised by Marie Babel, Maud Marchal and Claudio Pacchierotti .
+I defended my [thesis](/publication/cabaret2024thesis) entitled “Design of multi-actuator haptic devices and rendering methods for navigation and virtual interactions” on 13 December 2024, supervised by Marie Babel, Maud Marchal and Claudio Pacchierotti.
+I was awarded the [IFRATH](https://ifrath.fr/) Thesis Prize 2024 for this work.
 
 My research interests are :
 - **Haptics** 👋

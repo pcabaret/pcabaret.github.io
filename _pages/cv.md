@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-* **PhD in Computer Science**, INSA Rennes, 2024
+* **PhD in Computer Science**, INSA Rennes, 2024 [(see more)](/publication/cabaret2024thesis)
 * **Research Master’s in Computer Science**, INSA Rennes, 2021
 * **Engineering Degree in Computer Science**, INSA Rennes, 2021 
 
